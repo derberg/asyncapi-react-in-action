@@ -6,7 +6,5 @@ import { specMock } from "./mock";
 import "@kyma-project/asyncapi-react/lib/styles/fiori.css";
 import "./styles.css";
 
-const App = () => <AsyncApiComponent schema={specMock} />;
-
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<AsyncApiComponent schema={specMock} />, rootElement);
