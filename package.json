@@ -8,7 +8,8 @@
     "@kyma-project/asyncapi-react": "^0.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "^3.0.0"
+    "react-scripts": "^3.0.0",
+    "node": "12.18.3"
   },
   "devDependencies": {},
   "scripts": {
